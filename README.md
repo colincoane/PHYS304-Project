@@ -3,9 +3,7 @@ Scripts and files used for simulating solar system motion
 
 Scripts written and run in MATLAB
 
-JPL Horizons Ephemeris Data given in files with naming scheme "horizons_results_body.txt"
-
-Function "solarSystemData.m" contains body initial states and masses, and "solarSystemEndData.m" contains expected final states from horizons results files
+JPL Horizons Ephemeris Data hard coded into functions. Function "solarSystemData.m" contains body initial states and masses, and "solarSystemEndData.m" contains expected final states from horizons results files
 
 Functions with naming scheme "methodIntegrator.m" are used to perform integration
 
